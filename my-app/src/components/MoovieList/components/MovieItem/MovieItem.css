@@ -1,0 +1,73 @@
+.moovie__item {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.movie__item-poster {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid #0F2027;
+    border-radius: 10px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+
+
+
+.movie__item-poster-backdrop-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-top-left-radius: 10px;  
+    border-top-right-radius: 10px; 
+}
+
+.moovie__item-heading {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.moovie__item-heading-raiting{
+    color: goldenrod;
+}
+.moovie__item-heading-title{
+    margin: 6px 0px;
+    color: white;
+}
+
+.moovie__item-heading-raiting{
+margin-bottom: 6px;
+}
+.moovie__item-heading-raiting-math{
+    margin-bottom: 6px;
+}
+
+
+.gg{
+    opacity: 1;
+   
+}
+.moovie__item-heading-details-description{
+    color: white;
+    z-index: 100;
+}

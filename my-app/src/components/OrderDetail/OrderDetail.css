@@ -1,0 +1,10 @@
+.order__detail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: red;
+
+}

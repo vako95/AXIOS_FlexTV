@@ -1,0 +1,21 @@
+.logo{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+}
+.logo-link{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+}
+.logo-link__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}

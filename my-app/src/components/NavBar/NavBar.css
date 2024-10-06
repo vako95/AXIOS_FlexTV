@@ -1,0 +1,9 @@
+.nav__bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aqua;
+}
